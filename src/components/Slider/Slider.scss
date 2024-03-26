@@ -1,0 +1,32 @@
+.slider__swiper{
+    margin-left: 15px;
+    & img{
+        cursor: pointer;
+    }
+}
+.slider {
+    margin-top: 20px;
+}
+.slider__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.slider__title {
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    line-height: normal;
+}
+.slider__more {
+    text-decoration: none;
+    color: #777777;
+    font-size: 15px;
+    line-height: 18px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

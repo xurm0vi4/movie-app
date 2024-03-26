@@ -1,0 +1,14 @@
+.header-film {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    width: 375px;
+    z-index: 20;
+}
+.header__back {
+    cursor: pointer;
+}
+.header__bookmark {
+    cursor: pointer;
+}

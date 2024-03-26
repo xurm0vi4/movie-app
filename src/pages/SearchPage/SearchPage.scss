@@ -1,0 +1,115 @@
+.searchpage {
+    padding: 15px;
+}
+
+.searchpage__header {}
+
+.searchpage__header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchpage__back {}
+
+.searchpage__title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+
+    & h3 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    & span {
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: #e82626;
+            -moz-text-decoration-color: #E82626;
+        }
+    }
+}
+
+.searchpage__header-search {
+    margin-top: 30px;
+    display: flex;
+
+    & input {
+        width: 70%;
+        outline: none;
+        border: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        padding: 5px 10px;
+    }
+
+    & button {
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #E82626;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+
+    }
+}
+
+.searchpage__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+.searchpage__card {
+    width: 150px;
+}
+
+.searchpage__card-img {}
+
+.searchpage__card-title {
+    margin-top: 5px;
+    color: #DEDDDF;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.searchpage__pagination {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+
+    li {
+        text-align: center;
+        color: #000;
+        background-color: #fff;
+        width: 30px;
+        padding: 3px 0;
+        border-radius: 30%;
+        -webkit-border-radius: 30%;
+        -moz-border-radius: 30%;
+        -ms-border-radius: 30%;
+        -o-border-radius: 30%;
+        cursor: pointer;
+    }
+
+    & .active {
+        background-color: #E82626;
+    }
+}

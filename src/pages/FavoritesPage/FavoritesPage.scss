@@ -1,0 +1,18 @@
+.favoritespage {
+    padding: 0 15px;
+    & img{
+        margin-top: 15px;
+        height: 530px;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+}
+}
+.favoritespage__title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
